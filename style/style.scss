@@ -2,10 +2,13 @@
 @import "../scss/variables";
 
 $new-spacers: (
-  
+  6s: $spacer * 4,
   6: $spacer * 10,
 );
 
+
+
 $spacers: map-merge($spacers, $new-spacers);
+
 
 @import "../scss/bootstrap.scss"
